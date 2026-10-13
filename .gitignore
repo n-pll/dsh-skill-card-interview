@@ -1,0 +1,6 @@
+# 本机依赖（若用 link: 方式安装，profile 会链接本目录）
+node_modules/
+
+# 日志与临时文件
+*.log
+.DS_Store

@@ -1,0 +1,5 @@
+# dsh-skill-card-interview bundle patch：把本插件挂进 web profile 的组合层。
+# 插件本身不注册工具，只向 ctx.skills 注册一个「包装型」skill provider。
+- insert:
+    - id: skill-card-interview
+      name: 'dsh-skill-card-interview'

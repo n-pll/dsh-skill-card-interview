@@ -1,0 +1,25 @@
+{
+  "rank": 590,
+  "source": "custom",
+  "sources": [
+    {
+      "package": "@vinvcn/dsh-mattpocock-skills-zh",
+      "skills": [
+        "grilling",
+        "grill-me",
+        "grill-with-docs",
+        "ask-matt",
+        "triage",
+        "wayfinder",
+        "to-questionnaire",
+        "improve-codebase-architecture",
+        "loop-me",
+        "writing-fragments",
+        "writing-shape",
+        "writing-beats",
+        "teach",
+        "setup-matt-pocock-skills"
+      ]
+    }
+  ]
+}

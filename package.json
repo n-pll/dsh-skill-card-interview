@@ -1,0 +1,48 @@
+{
+  "name": "dsh-skill-card-interview",
+  "version": "0.1.0",
+  "description": "DSH 插件：让访谈/决策类 skill 一律用 ask_user_question 卡片提问（加载时给指定 skill 追加覆盖层，不改上游包、不被上游更新覆盖）",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "config.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "private": false,
+  "license": "MIT",
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skill",
+    "ask-user-question",
+    "grilling",
+    "interview"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-pll/dsh-skill-card-interview.git"
+  },
+  "homepage": "https://github.com/n-pll/dsh-skill-card-interview",
+  "bugs": {
+    "url": "https://github.com/n-pll/dsh-skill-card-interview/issues"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
